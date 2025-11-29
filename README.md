@@ -18,5 +18,3 @@ A **fun and interactive Python game** where the program thinks of a number betwe
 - **Interactive hints** make it fun and challenging.  
 - **Tracks attempts** for better self-challenge.  
 - **Lightweight and beginner-friendly** Python code.  
-
----
