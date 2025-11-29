@@ -1,13 +1,21 @@
+# Import random module to generate random number
 import random 
-ran = random.randint(1 , 100)
+
 print("Welcome to Number Guess Game!")
-guesses = 0
-number = -1
+
+# Generate a random number between 1 and 100
+ran = random.randint(1 , 100)
+
+guesses = 0 # Counter for number of guesses
+number = -1  # Initialize user guess
+
 while (number != ran):
-    guesses += 1
-    number = int(input("Guess the Number: "))
+    number = int(input("Guess the Number: ")) # Take user input
+
     if number > ran:
-        print(f"Enter Lower Number!")
-    else:
-        print(f"Enter Higher Number!")
-print(f"You Guess the number \"{ran}\" in {guesses} guesses.")
+        print(f"Enter Lower Number!") # Hint for user
+        guesses += 1
+    elif number < ran:
+        print(f"Enter Higher Number!") # Hint for user
+        guesses += 1
+print(f"You have guess the number {ran} correclty in {guesses} attempts.") # Success message
