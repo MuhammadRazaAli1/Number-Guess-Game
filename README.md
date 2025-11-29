@@ -1,14 +1,22 @@
-# Number-Guess-Game
+# 🎯 The Perfect Guess
 
-## About
-**The Perfect Guess** is a Python-based Number Guessing Game where the program randomly selects a number between 1 and 100. Users try to guess the number, receiving hints whether to enter a higher or lower number. This project demonstrates the use of Python **loops, conditionals, and the random module**.
+A **fun and interactive Python game** where the program thinks of a number between 1 and 100, and you try to guess it. With each attempt, you’ll get hints to go higher or lower until you find the correct number.  
 
-## Features
-- Random number generation between 1 and 100
-- User-friendly input and hints (Higher/Lower)
-- Tracks the number of guesses
-- Simple and interactive Python game
+---
 
-## How to Play
-1. Download this repository.
-2. Run the Python File in your Code Editor.
+## 🕹️ How It Works
+- The program generates a **random number** between 1 and 100.  
+- You enter your guesses one by one.  
+- After each guess, the program tells you whether the number is **higher** or **lower**.  
+- Keep guessing until you hit the **perfect number**!  
+- The game counts how many guesses it took — challenge yourself to guess it in as few tries as possible!  
+
+---
+
+## ✨ Features
+- **Randomized numbers** every game for a unique experience.  
+- **Interactive hints** make it fun and challenging.  
+- **Tracks attempts** for better self-challenge.  
+- **Lightweight and beginner-friendly** Python code.  
+
+---
