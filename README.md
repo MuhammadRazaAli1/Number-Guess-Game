@@ -10,8 +10,5 @@
 - Simple and interactive Python game
 
 ## How to Play
-1. Clone or download this repository.
-2. Run the Python file using:
-   ```bash
-   python number_guess_game.py
-
+1. Download this repository.
+2. Run the Python File in your Code Editor.
